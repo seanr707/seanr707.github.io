@@ -5,7 +5,11 @@ export default {
       "description": "Create, edit, and restore recipes using React and Redux.",
       "imageTitle": "recipe-box.png",
       "id": "reduxrecipebox",
-      "url": "https://codepen.io/seanr707/full/OXBjbW",
+      "urls": {
+        "codepenIo": "https://codepen.io/seanr707/full/OXBjbW",
+        "githubIo": "https://seanr707.github.io/recipe-box-redux",
+        "githubSrc": "https://github.com/seanr707/recipe-box-redux"
+      },
       "expanded": false
     },
     {
@@ -13,7 +17,11 @@ export default {
       "description": "Preview, upload, and save Markdown using this Markdown editor build with React.",
       "imageTitle": "markdown-editor.png",
       "id": "reactmarkdowneditor",
-      "url": "https://codepen.io/seanr707/full/OXQBvm",
+      "urls": {
+        "codepenIo": "https://codepen.io/seanr707/full/OXQBvm",
+        "githubIo": "https://seanr707.github.io/markdown-editor",
+        "githubSrc": "https://github.com/seanr707/markdown-editor"
+      },
       "expanded": false
     },
     {
@@ -21,7 +29,11 @@ export default {
       "description": "The user fights to tie against the computer in an unwinnable challange. Built using Angular 1.x",
       "imageTitle": "tic-tac-toe.png",
       "id": "tictactoe",
-      "url": "https://codepen.io/seanr707/full/JYPjEX",
+      "urls": {
+        "codepenIo": "https://codepen.io/seanr707/full/JYPjEX",
+        "githubIo": "https://seanr707.github.io/tic-tac-toe-angular",
+        "githubSrc": "https://github.com/seanr707/tic-tac-toe-angular"
+      },
       "expanded": false
     },
     {
@@ -29,7 +41,11 @@ export default {
       "description": "Take the top 25 most helpful users on FreeCodeCamp. Built using React",
       "imageTitle": "fcc-leaderboard.png",
       "id": "fccleaderboard",
-      "url": "https://codepen.io/seanr707/full/yJjVOb",
+      "urls": {
+        "codepenIo": "https://codepen.io/seanr707/full/yJjVOb",
+        "githubIo": "https://seanr707.github.io/camper-leaderboard",
+        "githubSrc": "https://github.com/seanr707/camper-leaderboard"
+      },
       "expanded": false
     }
   ]

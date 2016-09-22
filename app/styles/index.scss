@@ -11,6 +11,24 @@ a {
   color: inherit;
 }
 
+div:focus {
+  outline: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+p {
+  & a {
+    color: #1188dd;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
 .navbar {
   position: fixed;
   left: 0px;
@@ -61,6 +79,7 @@ a {
   color: #dcdcdc;
   padding: 10px;
   margin: 0px;
+  height: 32px;
 }
 
 .headshot-container {
@@ -88,21 +107,36 @@ a {
   margin: 1px;
 }
 
+.head-item {
+  margin: 0 1px;
+  background: none;
+  box-shadow: none;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
 .btn {
   $bgColor: #2255cc;
   border: none;
   border-radius: 3px;
-  background: $bgColor;
+  background: none;
   padding: 8px;
   font-size: 12px;
   margin: 3px;
-  color: #ededed;
+  color: #777777;
   width: 75px;
   cursor: pointer;
+  transition: all 0.2s ease;
 
   &:hover {
-    background-color: darken($bgColor, 10);
-    box-shadow: 0 1px 4px #333333;
+    background-color: $bgColor;
+    color: #ededed;
   }
 
   &:active {
@@ -119,6 +153,10 @@ a {
 .button-container {
   width: 200px;
   margin: 3px auto;
+  text-align: center;
+  background: white;
+  border-radius: 3px;
+  box-shadow: 0 1px 1px #aaaaaa;
 }
 
 .about {
@@ -133,6 +171,10 @@ a {
 .about-text {
   padding: 10px;
   line-height: 1.5;
+
+  box-shadow: inset 0 0 3px;
+  margin: 5px;
+  background: #fbfbfb;
 }
 
 .project-list-container {
@@ -159,7 +201,7 @@ a {
 
 .project-title {
   text-align: center;
-  margin: 14px auto;
+  padding: 14px;
   font-weight: bold;
   cursor: pointer;
 }

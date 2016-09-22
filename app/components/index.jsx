@@ -10,7 +10,7 @@ const ProfileButtons = () => {
   };
 
   return (
-    <div className="button-container">
+    <div className="head-item right">
     {Object.keys(profiles).map(key => {
       return (
         <a key={key} target="_blank" href={profiles[key]}>
@@ -25,7 +25,7 @@ const ProfileButtons = () => {
 const Header = () => {
   return (
     <div className="heading">
-      <div className="name">Sean R.</div>
+      <div className="name head-item left">Sean R.</div>
       <ProfileButtons />
     </div>
   );
