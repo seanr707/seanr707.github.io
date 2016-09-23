@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
   const indent = {
-    textIndent: '25px'
+    textIndent: '20px'
   };
 
   return (
@@ -16,8 +16,8 @@ const About = () => {
           details here since the profile is so public.
           I am currently working a part-time/full-time job and completing courses
           on <a href="https://freecodecamp.com">FreeCodeCamp</a> in my spare time. When I am not
-          working or learning, I enjoy cooking, football, watching or talking about Game of Thrones,
-          and spending time with friends or family.
+          working or learning, I enjoy cooking nutritious meals, attending football games,
+          and spending time with friends or family. Exercise and sleep are also in there somewhere!
         </p>
         <p style={indent}>
               My main programming language of choice and knowledge is JavaScript (ES6/Babel).

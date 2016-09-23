@@ -33,8 +33,10 @@ class Project extends React.Component {
               <img src={'public/img/projects/' + project.imageTitle} alt="project" className="project-img" />
             </a>
           </div>
-          <div className="project-description">
-            {project.description}
+          <div className="project-description-container">
+            <div className="project-description">
+              {project.description}
+            </div>
           </div>
           <div className="button-container">
             <a target="_blank" href={project.urls.githubSrc}>
