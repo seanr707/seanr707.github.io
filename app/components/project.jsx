@@ -29,7 +29,7 @@ class Project extends React.Component {
         </div>
         <div className="hidden-description" style={descStyle}>
           <div className="img-container">
-            <a target="_blank" href={project.urls.codepenIo}>
+            <a target="_blank" href={project.urls.githubIo}>
               <img src={'public/img/projects/' + project.imageTitle} alt="project" className="project-img" />
             </a>
           </div>
