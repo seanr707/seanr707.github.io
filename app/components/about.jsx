@@ -1,4 +1,5 @@
 import React from 'react';
+import Libraries from './libraries.jsx';
 
 const About = () => {
   const indent = {
@@ -28,15 +29,7 @@ const About = () => {
         <p>
           Libraries, frameworks, and supersets of JavaScript I am familiar with are:
         </p>
-        <ul>
-          <li>ES6</li>
-          <li>TypeScript</li>
-          <li>React</li>
-          <li>Redux</li>
-          <li>Immutable</li>
-          <li>Angular 1.x</li>
-          <li>jQuery</li>
-        </ul>
+        <Libraries />
       </div>
     </div>
   );
