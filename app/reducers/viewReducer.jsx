@@ -1,7 +1,7 @@
 import { actionTypes } from '../actions/index.jsx';
 
 const initialState = {
-  viewing: 'about'
+  viewing: 'projects'
 };
 
 const reducer = (state = initialState, action) => {

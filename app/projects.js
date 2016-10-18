@@ -10,19 +10,7 @@ export default {
         "githubIo": "https://seanr707.github.io/recipe-box-redux",
         "githubSrc": "https://github.com/seanr707/recipe-box-redux"
       },
-      "expanded": false
-    },
-    {
-      "title": "Markdown Editor",
-      "description": "Preview, upload, and save Markdown using this Markdown editor build with React.",
-      "imageTitle": "markdown-editor.png",
-      "id": "reactmarkdowneditor",
-      "urls": {
-        "codepenIo": "https://codepen.io/seanr707/full/OXQBvm",
-        "githubIo": "https://seanr707.github.io/markdown-editor",
-        "githubSrc": "https://github.com/seanr707/markdown-editor"
-      },
-      "expanded": false
+      "expanded": true
     },
     {
       "title": "Game of Life",
@@ -33,6 +21,18 @@ export default {
         "codepenIo": "https://codepen.io/seanr707/full/yayaxK",
         "githubIo": "https://seanr707.github.io/game-of-life",
         "githubSrc": "https://github.com/seanr707/game-of-life"
+      },
+      "expanded": true
+    },
+    {
+      "title": "Markdown Editor",
+      "description": "Preview, upload, and save Markdown using this Markdown editor build with React.",
+      "imageTitle": "markdown-editor.png",
+      "id": "reactmarkdowneditor",
+      "urls": {
+        "codepenIo": "https://codepen.io/seanr707/full/OXQBvm",
+        "githubIo": "https://seanr707.github.io/markdown-editor",
+        "githubSrc": "https://github.com/seanr707/markdown-editor"
       },
       "expanded": false
     },
