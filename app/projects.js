@@ -1,6 +1,28 @@
 export default {
   "projects": [
     {
+      "title": "Poll Voting",
+      "description": "Sign in,vote, and create polls using React, Redux, React-router, and MongoDB",
+      "imageTitle": "vote-app.png",
+      "id": "voteapp",
+      "urls": {
+        "githubIo": "https://voting-app-10a4.herokuapp.com/",
+        "githubSrc": "https://github.com/seanr707/full-stack-vote-app"
+      },
+      "expanded": true
+    },
+    {
+      "title": "Gitter Client",
+      "description": "Chat on FreeCodeCamp's rooms using the Gitter API",
+      "imageTitle": "gitter-app.png",
+      "id": "gitterapp",
+      "urls": {
+        "githubIo": "https://fccgitterapp.herokuapp.com/",
+        "githubSrc": "https://github.com/seanr707/fcc-gitter-app"
+      },
+      "expanded": true
+    },
+    {
       "title": "Recipe Box",
       "description": "Create, edit, and restore recipes using React and Redux.",
       "imageTitle": "recipe-box.png",
